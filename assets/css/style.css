@@ -1,0 +1,23 @@
+img {
+    max-width: 100%;
+}
+
+.likes_div {
+    height: 50px;
+}
+
+@media screen and (min-width: 576px) {
+
+    body > .container > .row {
+        max-width: 80%;
+    }
+    
+}
+@media screen and (min-width: 768px) {
+
+    body > .container > .row {
+        /* width: 60%; */
+        max-width: 800px;
+    }
+    
+}
